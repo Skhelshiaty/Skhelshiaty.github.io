@@ -156,3 +156,14 @@ footer {
     font-size: 32px;
   }
 }
+
+.hero .profile-image {
+  width: 220px !important;
+  height: 220px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  display: block;
+  margin: 0 auto 20px auto;
+  border: 5px solid white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
