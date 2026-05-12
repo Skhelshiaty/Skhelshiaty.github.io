@@ -247,8 +247,10 @@ section{
 }
 
 .project-card img {
-    height: 220px;
-    object-fit: cover;
+   width: 100%;
+   height: 260px;
+   object-fit: contain;
+   border-radius: 10px;
 }
 
 .project-card p{
