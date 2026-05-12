@@ -54,7 +54,7 @@ body {
 
 /* Hero Section */
 .hero {
-  min-height: 100vh;
+  min-height: 85vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -105,7 +105,7 @@ body {
 
 /* Sections */
 section {
-  padding: 80px 10%;
+  padding: 70px 10%;
 }
 
 .section-title {
@@ -170,4 +170,17 @@ footer {
 
 .project-card:hover {
   transform: translateY(-10px) scale(1.02);
+}
+
+.about-content {
+    max-width: 850px;
+    margin: auto;
+    text-align: center;
+}
+
+.about-content p {
+    margin-bottom: 25px;
+    line-height: 1.8;
+    font-size: 18px;
+    color: #333;
 }
