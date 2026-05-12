@@ -167,3 +167,7 @@ footer {
   border: 5px solid white;
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
+
+.project-card:hover {
+  transform: translateY(-10px) scale(1.02);
+}
