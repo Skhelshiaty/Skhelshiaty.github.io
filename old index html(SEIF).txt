@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Seifeldin Elshiaty - Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="nav-content">
+      <a href="#" class="logo">Seifeldin Elshiaty</a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <img src="images/profile.jpeg" alt="Seifeldin Elshiaty" class="profile-image">
+      <h1>Hi, I’m <span class="highlight">Seifeldin Elshiaty</span></h1>
+      <p class="tagline">Computer Science Student | Aspiring Developer</p>
+      <p class="intro">Welcome to my portfolio. I’m passionate about learning, building projects, and creating useful technology solutions.</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+        <a href="https://github.com/Skhelshiaty" target="_blank" class="btn btn-primary">GitHub</a>
+        <a href="https://www.linkedin.com/in/seifeldin-elshiaty-8bbaa4384/" target="_blank" class="btn btn-secondary">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2 class="section-title">About Me</h2>
+
+    <div class="about-content">
+
+        <p>
+            I’m Seifeldin Elshiaty, a Computer Science student at Effat University with interests in machine learning, data science, healthcare AI, and software development.
+        </p>
+
+        <p>
+            I enjoy building practical projects that combine technical problem-solving with real-world applications, especially in intelligent systems and healthcare technologies.
+        </p>
+
+        <p>
+            My recent work includes ICU mortality prediction using machine learning models and AI-driven healthcare management frameworks.
+        </p>
+
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2 class="section-title">My Skills</h2>
+
+    <div class="skills-container">
+
+        <div class="skill-category">
+            <h3>Programming Languages</h3>
+            <div class="skill-tags">
+                <span>Python</span>
+                <span>Java</span>
+                <span>SQL</span>
+            </div>
+        </div>
+
+        <div class="skill-category">
+            <h3>Machine Learning</h3>
+            <div class="skill-tags">
+                <span>Pandas</span>
+                <span>Scikit-learn</span>
+                <span>XGBoost</span>
+                <span>NumPy</span>
+            </div>
+        </div>
+
+        <div class="skill-category">
+            <h3>Web Development</h3>
+            <div class="skill-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+            </div>
+        </div>
+
+        <div class="skill-category">
+            <h3>Tools</h3>
+            <div class="skill-tags">
+                <span>GitHub</span>
+                <span>VS Code</span>
+                <span>Google Colab</span>
+            </div>
+        </div>
+
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2 class="section-title">My Projects</h2>
+
+    <div class="project-card">
+      <h3>ICU Mortality Prediction System</h3>
+      <img src="images/icu-project.png" alt="ICU Project">
+      <p>Developed a machine learning system for ICU mortality prediction using clinical healthcare data, feature engineering, model evaluation, and interpretable AI techniques.</p>
+      <span>Machine Learning</span>
+      <span>XGBoost</span>
+      <span>Pandas</span>
+      <span>Scikit-learn</span>
+      <a href="https://github.com/Skhelshiaty" target="_blank" class="btn btn-primary">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <h3>EpiLoad Framework</h3>
+            <img src="images/icu-project.png" alt="ICU Project">
+            <p>Designed an AI-driven hospital load management framework to support healthcare decision-making, prediction, and resource coordination during epidemic surges.</p>
+            <span>Healthcare AI</span>
+            <span>Predictive Analytics</span>
+            <span>Data Science</span>
+            <span>Hospital Management</span>
+            <a href="https://github.com/Skhelshiaty" target="_blank" class="btn btn-primary">View Project</a>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2 class="section-title">Contact Me</h2>
+    
+    <p>
+    
+      Email:
+      <a href="mailto:skhelshiaty@effat.edu.sa">skhelshiaty@effat.edu.sa</a>
+
+    </p>
+    
+    <p>
+    
+      GitHub:
+      <a href="https://github.com/Skhelshiaty" target="_blank">github.com/Skhelshiaty</a>
+    
+    </p>
+
+    <p>
+    
+      LinkedIn:
+      <a href="https://www.linkedin.com/in/seifeldin-elshiaty-8bbaa4384/"
+       target="_blank">
+       View Profile
+      </a>
+    </p>
+
+    <p>
+      
+      Resume:
+      <a href="resume.pdf" class="btn btn-primary" target="_blank">
+        Resume
+      </a>
+    </p>
+
+    <p>
+
+      Phone:
+      <a href="tel:+966563805092">+966 56 380 5092</a>
+    
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2026 Seifeldin Elshiaty. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
