@@ -237,7 +237,8 @@ section{
 }
 
 .project-card:hover{
-  transform:translateY(-8px);
+  transform: translateY(-5px);
+  transition: 0.3s ease;
 }
 
 .project-card h3{
