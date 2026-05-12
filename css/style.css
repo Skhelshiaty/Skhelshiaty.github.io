@@ -60,7 +60,7 @@ body {
   align-items: center;
   text-align: center;
   padding: 120px 20px;
-  background: #e9ecff;
+  background: linear-gradient(to right, #f5f7ff, #eef1ff);
 }
 
 .hero-content h1 {
@@ -69,7 +69,7 @@ body {
 }
 
 .highlight {
-  color: #4f46e5;
+  color: #46e5bb;
 }
 
 .tagline {
@@ -129,6 +129,24 @@ section {
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
+.skills-container{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap:20px;
+}
+
+.skill-category{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.08);
+}
+
+.skill-category h3{
+    margin-bottom:15px;
+    color:#4f46e5;
+}
+
 /* Projects */
 .project-card {
   background: white;
@@ -169,7 +187,7 @@ footer {
 }
 
 .project-card:hover {
-  transform: translateY(-10px) scale(1.02);
+    transform: translateY(-8px);
 }
 
 .about-content {
@@ -183,4 +201,10 @@ footer {
     line-height: 1.8;
     font-size: 18px;
     color: #333;
+}
+
+.project-image img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
 }
